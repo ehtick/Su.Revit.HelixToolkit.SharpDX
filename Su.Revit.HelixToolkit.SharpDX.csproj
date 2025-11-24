@@ -83,16 +83,16 @@
 	</PropertyGroup>
 	<PropertyGroup Condition="!$([System.String]::Copy('$(Configuration)').Contains('D'))">
 		<PackageId>$(MSBuildProjectName)</PackageId>
-		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<PackageDescription>Su.Revit.HelixToolkit.SharpDX</PackageDescription>
+		<PackageReadmeFile>README.en.md</PackageReadmeFile>
+		<PackageDescription>A high-performance 3D visualization toolkit specifically designed for Revit plugin development. Built on HelixToolkit.Wpf.SharpDX, it provides a simple and easy-to-use API for creating feature-rich 3D view windows within Revit plugins</PackageDescription>
 		<PackageTags>Revit;Revit-API;HelixToolkit;WPF;</PackageTags>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<Version>$(RvtVersion).$(Version)</Version>
 		<PackageOutputPath>$(SolutionDir)\Nuget\$(MSBuildProjectName)\</PackageOutputPath>
-		<RepositoryUrl>https://github.com/ViewSuSu/Su.Revit.UI.StatusBarEx</RepositoryUrl>
+		<RepositoryUrl>https://github.com/ViewSuSu/Su.Revit.HelixToolkit.SharpDX</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<PublishRepositoryUrl>true</PublishRepositoryUrl>
-		<PackageProjectUrl>https://github.com/ViewSuSu/Su.Revit.UI.StatusBarEx</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/ViewSuSu/Su.Revit.HelixToolkit.SharpDX</PackageProjectUrl>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	</PropertyGroup>
 	<ItemGroup>
